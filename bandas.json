@@ -1,0 +1,154 @@
+[
+  {
+    "nome": "Underoath",
+    "ano_formacao": 1997,
+    "estilo": "Metalcore",
+    "local": "Tampa, Flórida, EUA",
+    "youtube": "https://www.youtube.com/channel/UCmeDeI8r-s1WNRgLzBR10QA",
+    "spotify": "https://open.spotify.com/artist/3U0WXtFD0p6jZZLnCeR5nk?si=3FjqwL87RsyqAFgehpeBNA"
+  },
+  {
+    "nome": "Architects",
+    "ano_formacao": 2004,
+    "estilo": "Metalcore",
+    "local": "Brighton, East Sussex, Inglaterra",
+    "youtube": "https://www.youtube.com/channel/UCPde-kaI7Q0rwVNC2fmp-aQ",
+    "spotify": "https://open.spotify.com/artist/3ZztVuWxHzNpl0THurTFCv?si=5hQaqcwpSsF5f-aT1ragqg"
+  },
+  {
+    "nome": "A Day to Remember",
+    "ano_formacao": 2003,
+    "estilo": "Metalcore",
+    "local": "Ocala, Flórida, EUA",
+    "youtube": "https://www.youtube.com/user/ADTRofficial",
+    "spotify": "https://open.spotify.com/artist/4Nzq9xjnvbxgePpVVQQhQi?si=anL4jW4pTHyLauGgGaxn3w"
+  },
+  {
+    "nome": "August Burns Red",
+    "ano_formacao": 2003,
+    "estilo": "Metalcore",
+    "local": "Lancaster, Pensilvânia, EUA",
+    "youtube": "https://www.youtube.com/channel/UCgq_ndhovWucVuuCWvvwlgQ",
+    "spotify": "https://open.spotify.com/artist/5p9CT9oH9cyJI4LVMkvfxX?si=1JeU1eJR9uWSDOhXkkmw"
+  },
+  {
+    "nome": "Incubus",
+    "ano_formacao": 1991,
+    "estilo": "Rock alternativo",
+    "local": "Calabasas, Califórnia, EUA",
+    "youtube": "https://www.youtube.com/user/incubustv",
+    "spotify": "https://open.spotify.com/artist/3Yn0bbfqWeVv2BTQhnLhWm?si=R3e1l3RrR9KeTz5s6TPEsg"
+  },
+  {
+    "nome": "Anberlin",
+    "ano_formacao": 2002,
+    "estilo": "Rock alternativo",
+    "local": "Winter Haven, Flórida, EUA",
+    "youtube": "https://www.youtube.com/user/AnberlinOfficial",
+    "spotify": "https://open.spotify.com/artist/5qz2J0nIzRvOpdyqelHhHp?si=PiHERNLcTokn_SRjyLpUa"
+  },
+  {
+    "nome": "Silverstein",
+    "ano_formacao": 2000,
+    "estilo": "Pós-hardcore",
+    "local": "Burlington, Ontário, Canadá",
+    "youtube": "https://www.youtube.com/user/SilversteinMusic",
+    "spotify": "https://open.spotify.com/artist/1czG12ezgHLhJH05OXjlrx?si=dneJlNAQQRKSybyOBZeNw"
+  },
+  {
+    "nome": "Paramore",
+    "ano_formacao": 2004,
+    "estilo": "Rock alternativo",
+    "local": "Franklin, Tennessee, EUA",
+    "youtube": "https://www.youtube.com/user/paramore",
+    "spotify": "https://open.spotify.com/artist/77t5FzS9xjLVa4fyrCS5Nk?si=FakRV6HhQEM0a2INFcATsA"
+  },
+  {
+    "nome": "R.Sigma",
+    "ano_formacao": 2004,
+    "estilo": "Rock alternativo",
+    "local": "Rio de Janeiro, Brasil",
+    "youtube": "https://www.youtube.com/@Rsigma",
+    "spotify": "https://open.spotify.com/artist/3TnLWHz99PRgFg4isS1cLu?si=rlluCMjUK1hFig1voa"
+  },
+  {
+    "nome": "Blessthefall",
+    "ano_formacao": 2004,
+    "estilo": "Metalcore",
+    "local": "Phoenix, Arizona, EUA",
+    "youtube": "https://www.youtube.com/@UCyHc8yHgKh7Wpbf-2p7MFXVQ",
+    "spotify": "https://open.spotify.com/artist/72Zk65gmKHUEYZf0hDgXYg?si=7nSUCAjWQ7GYMW47YjQ"
+  },
+  {
+    "nome": "Venore",
+    "ano_formacao": 2009,
+    "estilo": "Pós-hardcore",
+    "local": "Rio de Janeiro, Brasil",
+    "youtube": "https://www.youtube.com/@venoreband",
+    "spotify": "https://open.spotify.com/artist/2hnxjGxNmaXoYcWbvdz0Zs?si=BF27Wkbo2c_RKX2L0vmbvg"
+  },
+  {
+    "nome": "Alexisonfire",
+    "ano_formacao": 2001,
+    "estilo": "Pós-hardcore",
+    "local": "St. Catharines, Ontário, Canadá",
+    "youtube": "https://www.youtube.com/@UCwvioKyVDokrFoRZnZnKa",
+    "spotify": "https://open.spotify.com/artist/5xrz0ttG8cXsgjqnPbgslW?si=Isk6LctNJmKeXbWz0Zs-g"
+  },
+  {
+    "nome": "We Came as Romans",
+    "ano_formacao": 2005,
+    "estilo": "Metalcore",
+    "local": "Troy, Michigan, EUA",
+    "youtube": "https://www.youtube.com/@UCzWv7khCsNIC-4gP9sd1lg",
+    "spotify": "https://open.spotify.com/artist/6jJRi6R0j1WyjgofCuEKC5?si=2FKSZfTg-Tu6khuhw"
+  },
+  {
+    "nome": "Our Last Night",
+    "ano_formacao": 2004,
+    "estilo": "Pós-hardcore",
+    "local": "Hollis, New Hampshire, EUA",
+    "youtube": "https://www.youtube.com/@UC599aN2FaqyHeopdkOH0HA",
+    "spotify": "https://open.spotify.com/artist/00cP8pjp1CcraHcfki6hNs?si=E4smVknkT_3ZwJzhrluQ"
+  },
+  {
+    "nome": "LoveHateHero",
+    "ano_formacao": 2003,
+    "estilo": "Pós-hardcore",
+    "local": "Burbank, Califórnia, EUA",
+    "youtube": "https://www.youtube.com/@UC6up2e1wAP2ddP9sBrmw",
+    "spotify": "https://open.spotify.com/artist/7t0JXNkjhSrhBqhsjsc8yU?si=9uOVyTjS_edbPpuuZRr5Q"
+  },
+  {
+    "nome": "A Marcha Das Árvores",
+    "ano_formacao": 2006,
+    "estilo": "Pós-hardcore",
+    "local": "Rio de Janeiro, Brasil",
+    "youtube": "https://www.youtube.com/@amarchadasarvores",
+    "spotify": "https://open.spotify.com/artist/0pOMoYPcR9b5KAKCzR57s2?si=6aP5hE97SqG2yhyZfhw"
+  },
+  {
+    "nome": "Unlife",
+    "ano_formacao": 2006,
+    "estilo": "Metalcore",
+    "local": "São Paulo, Brasil",
+    "youtube": "https://www.youtube.com/@UnlifeTV",
+    "spotify": "https://open.spotify.com/artist/1Ts6ucbtzxetj11602s5a8?si=gN5J8k75RT38x0z0k7sZ8w"
+  },
+  {
+    "nome": "While She Sleeps",
+    "ano_formacao": 2006,
+    "estilo": "Metalcore",
+    "local": "Sheffield, Inglaterra",
+    "youtube": "https://www.youtube.com/@WhileSheSleeps",
+    "spotify": "https://open.spotify.com/artist/38cTgbtxEHWRXtazlsn22j?si=8as6HCEaNT2r7s_FjX4boQ"
+  },
+  {
+    "nome": "Comeback Kid",
+    "ano_formacao": 2000,
+    "estilo": "Punk hardcore",
+    "local": "Winnipeg, Manitoba, Canadá",
+    "youtube": "https://www.youtube.com/@UC2SGnVBueRwb2JwghMIFEA",
+    "spotify": "https://open.spotify.com/artist/67f6Gfr4tkZuwqRm1wJIXH?si=rRsRAu9pSoV4a0xT4sbuHQ"
+  }
+]
