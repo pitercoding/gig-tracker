@@ -8,8 +8,9 @@ async function carregarBandas() {
     const card = document.createElement('div');
     card.className = 'card';
     card.innerHTML = `
+      <img src="${banda.imagem}" alt="${banda.nome}" class="card-img" />
       <h2>${banda.nome}</h2>
-      <p><strong>Ano:</strong> ${banda.ano}</p>
+      <p><strong>Ano de Formação:</strong> ${banda.ano_formacao}</p>
       <p><strong>Estilo:</strong> ${banda.estilo}</p>
       <p><strong>Local:</strong> ${banda.local}</p>
       <div class="links">
@@ -22,3 +23,4 @@ async function carregarBandas() {
 }
 
 document.addEventListener('DOMContentLoaded', carregarBandas);
+      
