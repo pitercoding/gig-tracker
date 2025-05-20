@@ -8,14 +8,39 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #121212;
-    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
     padding: 1rem;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+body.light {
+  background-color: #f2f2f2;
+  color: #111;
 }
 
 header, footer {
     text-align: center;
     margin: 2rem 0;
+}
+
+#toggle-tema {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+body.light #toggle-tema {
+  background-color: #ddd;
+  color: #111;
 }
 
 #bandas-container {
@@ -25,31 +50,39 @@ header, footer {
 }
 
 .card {
-    background-color: #1e1e1e;
+    background-color: inherit;
     padding: 1.2rem;
     border-radius: 12px;
-    box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     transition: transform 0.2s;
+}
+
+body.light .card {
+  background-color: #fff;
+  color: #111;
+  border: 1px solid #ccc;
 }
 
 .card:hover {
     transform: scale(1.02);
 }
 
-.card-img{
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin-bottom: 0.8rem;
-}
-
 .card h2 {
   margin-bottom: 0.5rem;
-  font-size: 1.3rem;
 }
 
 .card p {
   margin: 0.3rem 0;
+}
+
+.card-img{
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+  display: block;
 }
 
 .links a {
