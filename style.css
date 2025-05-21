@@ -78,7 +78,7 @@ body.light .card {
 
 .card-img{
   width: 100%;
-  height: 180px;
+  height: 200px;
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 0.8rem;
@@ -86,12 +86,57 @@ body.light .card {
 }
 
 .links a {
+  font-size: 1.5rem;
   margin-right: 10px;
-  color: #BB4;
-  text-decoration: none;
-  font-weight: bold;
+  color: inherit; /* usa a cor do tema atual */
+  transition: color 0.3s;
 }
 
-.links a:hover {
-  text-decoration: underline;
+.youtube-icon {
+  color: #FF0000; /* Vermelho YouTube */
+}
+
+.spotify-icon {
+  color: #1DB954; /* Verde Spotify */
+}
+
+/* Efeito de hover opcional */
+.links a:hover .youtube-icon {
+  color: #cc0000;
+}
+
+.links a:hover .spotify-icon {
+  color: #169b47;
+}
+
+
+#filtros {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem;
+  justify-content: center;
+}
+
+#ordenar,
+#direcao,
+#busca {
+  padding: 0.4rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+
+/* Em telas maiores, aumente a altura */
+@media (min-width: 768px) {
+  .card-img {
+    height: 260px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-img {
+    height: 320px;
+  }
 }

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GigTracker</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,6 +13,23 @@
         <h1 class="site-title">GigTracker</h1>
         <p class="site-description">Minha coleção de shows inesquecíveis.</p>
         <button id="toggle-tema">🌙 Alternar Tema</button>
+        
+ <div id="filtros">
+    <label for="ordenar">Ordenar por:</label>
+    <select id="ordenar">
+      <option value="nome">Nome</option>
+      <option value="estilo">Estilo Musical</option>
+      <option value="local">Local</option>
+    </select>
+
+    <select id="direcao">
+      <option value="asc">A–Z</option>
+      <option value="desc">Z–A</option>
+    </select>
+
+    <input type="text" id="busca" placeholder="Buscar banda..." />
+  </div>
+
     </header>
     <main class="band-grid" id="band-list">
         <section id="bandas-container">
