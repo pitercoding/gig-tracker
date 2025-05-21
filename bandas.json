@@ -136,7 +136,7 @@
   },
   {
     "nome": "A Marcha Das Árvores",
-    "ano_formacao": 2006,
+    "ano_formacao": 2008,
     "estilo": "Pós-hardcore",
     "local": "Brasil",
     "youtube": "https://www.youtube.com/playlist?list=PLGYLZlQ-RJmE9YmowiqgiPYsxzPsf5N8L",
@@ -169,5 +169,212 @@
     "youtube": "https://www.youtube.com/playlist?list=PLD3D6734063173BCE",
     "spotify": "https://open.spotify.com/intl-pt/artist/67f7GZXNMGRn98lqrtIdrN?si=3H5sURNZTfWXTNu4-AFXRQ",
     "imagem": "imagens/comebackkid.jpg"
+  },
+  {
+    "nome": "Casti'El",
+    "ano_formacao": 2008,
+    "estilo": "Metal Alternativo",
+    "local": "Brasil",
+    "youtube": "https://www.youtube.com/@oficialcastiel/videos",
+    "spotify": "https://open.spotify.com/intl-pt/artist/05FTO3j9ufIp77lUBrgtAU?si=dPPxZOGVRsmWlOlGQc8C_Q",
+    "imagem": "imagens/castiel.jpg"
+  },
+  {
+    "nome": "Skore",
+    "ano_formacao": 1999,
+    "estilo": "Pós-hardcore",
+    "local": "Brasil",
+    "youtube": "https://www.youtube.com/playlist?list=PL9BEFF94708B03C2C",
+    "spotify": "https://open.spotify.com/intl-pt/artist/5SMpPc5vINO0XkZFRkRxfw?si=4vpuxJ4yS6SIbKeQTwnBLA",
+    "imagem": "imagens/skore.jpg"
+  },
+  {
+    "nome": "No Trauma",
+    "ano_formacao": 2011,
+    "estilo": "Metalcore",
+    "local": "Brasil",
+    "youtube": "https://www.youtube.com/@NoTraumaoficial/videos?view=0&sort=dd&shelf_id=1",
+    "spotify": "https://open.spotify.com/intl-pt/artist/4HhjEeMr8hBeeAY2mvcoqD?si=UiG1sX8nSZ-Vyo42u1d6wQ",
+    "imagem": "imagens/notrauma.webp"
+  },
+  {
+    "nome": "Beartooth",
+    "ano_formacao": 2012,
+    "estilo": "Rock alternativo",
+    "local": "EUA",
+    "youtube": "https://www.youtube.com/playlist?list=PLZEDHf6RukEsjNZ6yL3LXeCxSgGcacD9c",
+    "spotify": "https://open.spotify.com/intl-pt/artist/6vwjIs0tbIiseJMR3pqwiL?si=TYhJhDhuQ9OsyKy_Ypz2BQ",
+    "imagem": "imagens/beartooth.webp"
+  },
+  {
+    "nome": "Âncora",
+    "ano_formacao": 2012,
+    "estilo": "Pós-hardcore",
+    "local": "Brasil",
+    "youtube": "https://www.youtube.com/@ancorarock/videos?view=0&sort=dd&shelf_id=2",
+    "spotify": "https://open.spotify.com/intl-pt/artist/1CWYeo1UZcuAf5hvqVnCxb?si=bTjLTa-SRlaIup8ZXFlbfg",
+    "imagem": "imagens/ancora.jpg"
+  },
+  {
+    "nome": "Cefa",
+    "ano_formacao": 2012,
+    "estilo": "Pós-hardcore",
+    "local": "Brasil",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lAyyjKy8vjZyiLCTC2z3BFrpgIkay9-6A",
+    "spotify": "https://open.spotify.com/intl-pt/artist/47nyfQJpSHM8ezSh6QATyU?si=U9aWuzGQTTuALweVjVIFaQ",
+    "imagem": "imagens/cefa.webp"
+  },
+  {
+    "nome": "Alessa",
+    "ano_formacao": 2005,
+    "estilo": "Metalcore",
+    "local": "Brasil",
+    "youtube": "https://www.youtube.com/@AlessaRock/videos",
+    "spotify": "https://open.spotify.com/intl-pt/artist/1HjE6G17QE6dJCGrJ6Dzvs?si=WKmZa8wbQ42OJIbyWQM-Zg",
+    "imagem": "imagens/alessa.jpg"
+  },
+  {
+    "nome": "Khaos Inside",
+    "ano_formacao": 2006,
+    "estilo": "Metalcore",
+    "local": "Brasil",
+    "youtube": "https://www.youtube.com/@khaosinsideofficial/videos?view=0&sort=dd&shelf_id=1",
+    "spotify": "https://open.spotify.com/intl-pt/artist/3lnxcg6wV6uTmitzNiMRxi?si=nVNzTfrXTb2AYELVOVth-A",
+    "imagem": "imagens/khaosinside.jpg"
+  },
+  {
+    "nome": "Tormentta",
+    "ano_formacao": 2014,
+    "estilo": "Metalcore",
+    "local": "Brasil",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_kQ_GHWfIWnWypfK8ZbQ_8Kcdo-ynY7Fps",
+    "spotify": "https://open.spotify.com/intl-pt/artist/0UaEhe1CsdlNwYCM61Fn6R?si=RIT-UIFJTP63WzUGr2NjYw",
+    "imagem": "imagens/tormentta.jpg"
+  },
+  {
+    "nome": "Stellaurora",
+    "ano_formacao": 2009,
+    "estilo": "Metalcore",
+    "local": "Brasil",
+    "youtube": "https://www.youtube.com/@Stellaurorametal/videos?view=0&sort=dd&shelf_id=2",
+    "spotify": "https://open.spotify.com/intl-pt/artist/7ba6HYPSbCyApeLHaE6UIA?si=6pKZJoAlSQudvwGhmeCKQg",
+    "imagem": "imagens/stellaurora.jpg"
+  },
+  {
+    "nome": "Cardiac",
+    "ano_formacao": 2007,
+    "estilo": "Metalcore",
+    "local": "Brasil",
+    "youtube": "https://www.youtube.com/playlist?list=PLimoyP0vLUONVXTEJilAoUYmdrJt3mk4c",
+    "spotify": "https://open.spotify.com/intl-pt/artist/2Ej6enz5BmEMR3mHq3ZuVY?si=z6ucJhG2R1KOE6bymZAafw",
+    "imagem": "imagens/cardiac.jpg"
+  },
+  {
+    "nome": "Ok!Dance",
+    "ano_formacao": 2010,
+    "estilo": "Deathcore",
+    "local": "Brasil",
+    "youtube": "https://www.youtube.com/watch?v=arpgswOepA4&list=OLAK5uy_miwe_8-dV2-om0nLVCDCHoeIRhYh1jYIA",
+    "spotify": "https://open.spotify.com/intl-pt/artist/6FIiTNRCR3FxtDQDnvhU3R?si=4XgnU9ojQpiL-nHL9Rc7og",
+    "imagem": "imagens/okdance.jpg"
+  },
+  {
+    "nome": "A Última Theoria",
+    "ano_formacao": 2010,
+    "estilo": "Deathcore",
+    "local": "Brasil",
+    "youtube": "https://www.youtube.com/@aultimatheoria/videos?view=0&sort=dd&shelf_id=1",
+    "spotify": "https://open.spotify.com/intl-pt/artist/2DiJKSezfeLN4LsoWi8oAZ?si=qz_IUzUIQlGXQfiEVQAbYA",
+    "imagem": "imagens/aut.jpg"
+  },
+  {
+    "nome": "Analisando Sara",
+    "ano_formacao": 2006,
+    "estilo": "Rock Experimental",
+    "local": "Brasil",
+    "youtube": "https://www.youtube.com/@analisandosara/videos?view=0&sort=dd&shelf_id=2",
+    "spotify": "https://open.spotify.com/intl-pt/artist/7Ez9oC3uQU3P2kgWpkivN9?si=8puQ6Nu5Ro6R2N-dkvwVcA",
+    "imagem": "imagens/as.jpg"
+  },
+  {
+    "nome": "Starlla",
+    "ano_formacao": 2003,
+    "estilo": "Pós-hardcore",
+    "local": "Brasil",
+    "youtube": "https://www.youtube.com/@starllamusic/videos?view=0&sort=dd&shelf_id=3",
+    "spotify": "https://open.spotify.com/intl-pt/artist/2wi1TWKPuJjThvXD0iV7bB?si=piRHvEaLR3-77imdu7t4fQ",
+    "imagem": "imagens/starlla.jpg"
+  },
+  {
+    "nome": "Aurora Rules",
+    "ano_formacao": 2008,
+    "estilo": "Metalcore",
+    "local": "Brasil",
+    "youtube": "https://www.youtube.com/@AuroraRules/videos?view=0&sort=dd&shelf_id=1",
+    "spotify": "https://open.spotify.com/intl-pt/artist/62OihV3Ra39e3uJGVpbqLT?si=yIHi6ADVQe-XzaL2xXz8Ng",
+    "imagem": "imagens/ar.jpg"
+  },
+  {
+    "nome": "Maieuttica",
+    "ano_formacao": 2005,
+    "estilo": "Metalcore",
+    "local": "Brasil",
+    "youtube": "https://www.youtube.com/playlist?list=PLK95D7aA6NVneaU_HNxSAvMwvbPXv69i2",
+    "spotify": "https://open.spotify.com/intl-pt/artist/2nSchkvrFFcHpU6QP4UfBd?si=_Wo_Qq_YS6q0p1KQdKB3MA",
+    "imagem": "imagens/mtk.jpg"
+  },
+  {
+    "nome": "Folhas de outono",
+    "ano_formacao": 2008,
+    "estilo": "Metalcore Progressivo",
+    "local": "Brasil",
+    "youtube": "https://www.youtube.com/@folhasdeoutonotv/videos",
+    "spotify": "https://open.spotify.com/intl-pt/artist/665FC70QlkMpDBIRm7fp4r?si=O7ObTnckTM2GB1GegPEvIw",
+    "imagem": "imagens/fdo.webp"
+  },
+  {
+    "nome": "Trivium",
+    "ano_formacao": 1999,
+    "estilo": "Metalcore",
+    "local": "EUA",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lX9hqRZD4bVCeYBRNI-hULmFjGxYh9C-M",
+    "spotify": "https://open.spotify.com/intl-pt/artist/278ZYwGhdK6QTzE3MFePnP?si=A6DN5t-_QV-yLqOMwBZW9A",
+    "imagem": "imagens/trivium.jpg"
+  },
+  {
+    "nome": "Pavio",
+    "ano_formacao": 2019,
+    "estilo": "Hardcore",
+    "local": "Brasil",
+    "youtube": "https://www.youtube.com/@PavioRJ/videos?view=0&sort=dd&shelf_id=1",
+    "spotify": "https://open.spotify.com/intl-pt/artist/57qIMzGbztYjwbmEdkpeAK?si=SMM1J0gGTmmEmyafswshSw",
+    "imagem": "imagens/pavio.jpg"
+  },
+  {
+    "nome": "Dias de Guerra",
+    "ano_formacao": 2009,
+    "estilo": "Hardcore",
+    "local": "Brasil",
+    "youtube": "https://www.youtube.com/@DiasdeGuerra/videos?view=0&sort=dd&shelf_id=1",
+    "spotify": "https://open.spotify.com/intl-pt/artist/72ZsWtHFYmRl7p53ZzwOfb?si=FV25Xn30RxW91fK1LRUIlA",
+    "imagem": "imagens/ddg.jpg"
+  },
+  {
+    "nome": "Donots",
+    "ano_formacao": 1993,
+    "estilo": "Pop punk",
+    "local": "Alemanha",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mtZdNVRuj9IvJBau3FSmFFmcfiPyfmd_g",
+    "spotify": "https://open.spotify.com/intl-pt/artist/2gRgzV2ooQwweEr4s7lwsg?si=m-iV54UXRYKloBsM6wD7DQ",
+    "imagem": "imagens/donots.jpg"
+  },
+  {
+    "nome": "Electric Callboy",
+    "ano_formacao": 2010,
+    "estilo": "Electronicore",
+    "local": "Alemanha",
+    "youtube": "https://www.youtube.com/playlist?list=PL8c60R8wYwlwUyULAe71T6woC7rIra79I",
+    "spotify": "https://open.spotify.com/intl-pt/artist/1WNoKxsp715jez1Td4vthc?si=sTjILDjkSzuueYC4VsY4vw",
+    "imagem": "imagens/ec.jpg"
   }
 ]
