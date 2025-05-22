@@ -43,6 +43,39 @@ body.light #toggle-tema {
   color: #111;
 }
 
+.nav-principal {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2rem auto;
+  flex-wrap: wrap;
+  font-size: 1rem;
+}
+
+.nav-principal a {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+body.light .nav-principal a {
+  background-color: #f0f0f0;
+  color: #111;
+}
+
+.nav-principal a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+body.light .nav-principal a:hover {
+  background-color: #ddd;
+}
+
+
 #bandas-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -85,11 +118,22 @@ body.light .card {
   display: block;
 }
 
+.links {
+  display: flex;
+  justify-content: center; /* centraliza os ícones horizontalmente */
+  gap: 1rem; /* espaçamento entre os ícones */
+  margin-top: 0.8rem; /* espaço entre o conteúdo acima */
+}
+
+
 .links a {
   font-size: 1.5rem;
-  margin-right: 10px;
-  color: inherit; /* usa a cor do tema atual */
+  color: inherit;
   transition: color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .youtube-icon {
@@ -163,6 +207,36 @@ footer a.linkedin:hover {
 footer a.lastfm:hover {
   color: #D51007; /* Vermelho Last.fm */
 }
+
+.nav-retorno {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.nav-retorno a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+body.light .nav-retorno a {
+  background-color: #eaeaea;
+  color: #111;
+}
+
+.nav-retorno a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+body.light .nav-retorno a:hover {
+  background-color: #ccc;
+}
+
+
 
 /* Em telas maiores, aumente a altura */
 @media (min-width: 768px) {

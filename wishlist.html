@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wishlist de Shows – GigTracker</title>
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="main-header">
+    <h1 class="site-title">Wishlist de Shows | GigTracker</h1>
+    <p class="site-description">Essas são as bandas que ainda sonho ver ao vivo algum dia.</p>
+
+    <button id="toggle-tema">🌙 Alternar Tema</button>
+
+    <div id="filtros">
+      <label for="ordenar">Ordenar por:</label>
+      <select id="ordenar">
+        <option value="nome">Nome</option>
+        <option value="estilo">Estilo Musical</option>
+        <option value="local">Local</option>
+      </select>
+
+      <select id="direcao">
+        <option value="asc">A–Z</option>
+        <option value="desc">Z–A</option>
+      </select>
+
+      <input type="text" id="busca" placeholder="Buscar banda..." />
+    </div>
+
+    <nav class="nav-retorno">
+        <a href="index.html">← Voltar para bandas já assistidas</a>
+    </nav>
+  </header>
+
+  <main class="band-grid" id="band-list">
+    <section id="bandas-container">
+      <!-- Cards inseridos via JS -->
+    </section>
+  </main>
+
+  <!--Últimas faixas tocadas-->
+    <section id="lastfm">
+      <h2>Agora tocando por aqui 🎧</h2><br>
+      <p>Clique e seja direcionado para meu Last.fm!</p><br>
+        <a href="https://www.last.fm/user/thisisdefeat" target="_blank">
+        <img src="https://lastfm-recently-played.vercel.app/api?user=thisisdefeat" width="350" alt="Últimas faixas ouvidas no Last.fm" /></a>
+    </section>
+
+  <footer>
+    <p>© 2025 – Feito com 🎸 por Piter Gomes</p>
+    <p>
+      <a href="https://github.com/pitercoding" target="_blank" aria-label="GitHub" class="github"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/piter-gomes-4a39281a1/" target="_blank" aria-label="LinkedIn" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.last.fm/user/thisisdefeat" target="_blank" aria-label="Last.fm" class="lastfm"><i class="fa-brands fa-lastfm"></i></a>
+    </p>
+  </footer>
+
+  <script defer src="wishlist.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+[
+  {
+    "nome": "The Devil Wears Prada",
+    "ano_formacao": "2005",
+    "estilo": "Metalcore",
+    "local": "EUA",
+    "imagem": "imagens/tdwp.jpg",
+    "youtube": "https://www.youtube.com/playlist?list=PLD9CD9286EF276DA6",
+    "spotify": "https://open.spotify.com/intl-pt/artist/0NbQe5CNgh4YApOCDuHSjb?si=lBCequMSS-2pnrkyLSCSQA"
+  },
+  {
+    "nome": "Blink-182",
+    "ano_formacao": "1992",
+    "estilo": "Pop Punk",
+    "local": "EUA",
+    "imagem": "imagens/blink.png",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mkMsurXMDrUUpzt_v2NikqxnbOODYLQHg",
+    "spotify": "https://open.spotify.com/intl-pt/artist/6FBDaR13swtiWwGhX1WQsP?si=PJ38sWfnTXy63fk3iUODVA"
+  },
+  {
+    "nome": "Matisyahu",
+    "ano_formacao": "2004",
+    "estilo": "Reggae Rock",
+    "local": "EUA",
+    "imagem": "imagens/matisyahu.png",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_kqu6qfgSqe1DluZcTkoSzMG2h3YwchIDk",
+    "spotify": "https://open.spotify.com/intl-pt/artist/5eyMzR1hYiEZtN2c9ly2kw?si=-bgEAzNFToGkGGZE_tEORw"
+  },
+  {
+    "nome": "TesseracT",
+    "ano_formacao": "2003",
+    "estilo": "Djent Metal",
+    "local": "Inglaterra",
+    "imagem": "imagens/tesseract.jpg",
+    "youtube": "https://www.youtube.com/playlist?list=PLaxWey0LBPvbmqjUXPaFf5JYqz81Wvbc-",
+    "spotify": "https://open.spotify.com/intl-pt/artist/23ytwhG1pzX6DIVWRWvW1r?si=K6mNYquaRE6duEaCnXukUw"
+  },
+  {
+    "nome": "Saosin",
+    "ano_formacao": "2003",
+    "estilo": "Post-hardcore",
+    "local": "EUA",
+    "imagem": "imagens/saosin.webp",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_nYHVgBqwvZq90wgatqSstkfYZMt-dlG3w",
+    "spotify": "https://open.spotify.com/intl-pt/artist/1NUOfvAhA9AvsF1ISMkgHX?si=yPf9DL0lTEqhUHDDcs6uyg"
+  },
+  {
+    "nome": "The Chariot",
+    "ano_formacao": "2003",
+    "estilo": "Mathcore",
+    "local": "EUA",
+    "imagem": "imagens/thechariot.jpg",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_kuuGrcGGM3jwU3z8Bl2mA4Od0LNqW7S2A",
+    "spotify": "https://open.spotify.com/intl-pt/artist/3JEDaDPsOev2axi1kVvnb3?si=laz3C0n-QbSCG2pZD1DdIw"
+  },
+  {
+    "nome": "Dua Lipa",
+    "ano_formacao": "2017",
+    "estilo": "Pop",
+    "local": "Inglaterra",
+    "imagem": "imagens/dualipa.jpg",
+    "youtube": "https://www.youtube.com/playlist?list=PLNrotoZZ8BaoXT_LJuwEyESQlctWNDCwD",
+    "spotify": "https://open.spotify.com/intl-pt/artist/6M2wZ9GZgrQXHCFfjv46we?si=5PR0wgs6RR2R2pfjwwCzyw"
+  },
+  {
+    "nome": "Counterparts",
+    "ano_formacao": "2007",
+    "estilo": "Metalcore",
+    "local": "Canadá",
+    "imagem": "imagens/counterparts.jpg",
+    "youtube": "https://www.youtube.com/@PureNoiseRecs/search?query=counterparts",
+    "spotify": "https://open.spotify.com/intl-pt/artist/5LyRnL0rysObxDRxzSfV1z?si=h5EXXUqnSq-3IjHfpOCMpA"
+  }
+  ,
+  {
+    "nome": "Pense",
+    "ano_formacao": "2007",
+    "estilo": "Hardcore",
+    "local": "Brasil",
+    "imagem": "imagens/pense.jpg",
+    "youtube": "https://www.youtube.com/@PENSEOFICIAL/videos?view=0&sort=dd&shelf_id=1",
+    "spotify": "https://open.spotify.com/intl-pt/artist/5u7Nm1nRMAHWrzoVmCP7fo?si=iB1XFxqATg6HuA-q93vWVQ"
+  }
+]
