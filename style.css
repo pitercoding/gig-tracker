@@ -127,6 +127,42 @@ body.light .card {
   border-radius: 5px;
 }
 
+#lastfm {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+footer a {
+  margin: 0 10px;
+  font-size: 1.4rem;
+  color: inherit;
+  transition: color 0.3s, transform 0.3s;
+}
+
+footer a:hover {
+  animation: pulse 0.6s ease-in-out;
+}
+
+footer a.github:hover {
+  color: #646363; /* Preto GitHub */
+}
+
+footer a.linkedin:hover {
+  color: #0A66C2; /* Azul LinkedIn */
+}
+
+footer a.lastfm:hover {
+  color: #D51007; /* Vermelho Last.fm */
+}
 
 /* Em telas maiores, aumente a altura */
 @media (min-width: 768px) {
