@@ -80,5 +80,77 @@
     "imagem": "imagens/pense.jpg",
     "youtube": "https://www.youtube.com/@PENSEOFICIAL/videos?view=0&sort=dd&shelf_id=1",
     "spotify": "https://open.spotify.com/intl-pt/artist/5u7Nm1nRMAHWrzoVmCP7fo?si=iB1XFxqATg6HuA-q93vWVQ"
+  },
+  {
+    "nome": "Bring Me The Horizon",
+    "ano_formacao": "2004",
+    "estilo": "Metalcore",
+    "local": "Inglaterra",
+    "imagem": "imagens/bmth.jpg",
+    "youtube": "https://www.youtube.com/playlist?list=PL2Gc4X16NxB7p8O3RH10Rh2pkbwpm_k1d",
+    "spotify": "https://open.spotify.com/intl-pt/artist/1Ffb6ejR6Fe5IamqA5oRUF?si=0EqJTbtaSDG4uI7yujlLEw"
+  },
+  {
+    "nome": "Haste The Day",
+    "ano_formacao": "2001",
+    "estilo": "Metalcore",
+    "local": "EUA",
+    "imagem": "imagens/hastetheday.jpg",
+    "youtube": "https://www.youtube.com/@solidstaterecords/search?query=Haste%20The%20Day",
+    "spotify": "https://open.spotify.com/intl-pt/artist/7voCqDg5xgF1LZFrmbPS7w?si=ZQRLhYcySWOMMVGZ8NwdHw"
+  },
+  {
+    "nome": "Emery",
+    "ano_formacao": "2001",
+    "estilo": "Post-hardcore",
+    "local": "EUA",
+    "imagem": "imagens/emery.jpg",
+    "youtube": "https://www.youtube.com/playlist?list=PL21609BA5B0300D0B",
+    "spotify": "https://open.spotify.com/intl-pt/artist/4feAxLUxIU7G4KXhH0h2ni?si=zmQ55zebQESYraDvaobggw"
+  },
+  {
+    "nome": "Parkway Drive",
+    "ano_formacao": "2003",
+    "estilo": "Metal",
+    "local": "Austrália",
+    "imagem": "imagens/pwd.jpg",
+    "youtube": "https://www.youtube.com/playlist?list=PLvSnu5zDHeJbCrtkz_gWtrrOD3sh6nEuW",
+    "spotify": "https://open.spotify.com/intl-pt/artist/159qqlGwzE04xyqpfAwRLo?si=Y3sUmqXxR52sMN4dzFl1sw"
+  },
+  {
+    "nome": "Texas in July",
+    "ano_formacao": "2006",
+    "estilo": "Metalcore",
+    "local": "EUA",
+    "imagem": "imagens/tij.jpg",
+    "youtube": "https://www.youtube.com/@equalvision/search?query=Texas%20in%20July",
+    "spotify": "https://open.spotify.com/intl-pt/artist/3J5OtMrtDAw0IcanJR28Ya?si=n6NzYF1JTZ-yvA8nvAY5Cg"
+  },
+  {
+    "nome": "Norma Jean",
+    "ano_formacao": "1997",
+    "estilo": "Metalcore",
+    "local": "EUA",
+    "imagem": "imagens/normaj.jpg",
+    "youtube": "https://www.youtube.com/@NormaJeanVEVO/videos",
+    "spotify": "https://open.spotify.com/intl-pt/artist/55b0Gfm53udtGBs8mmNXrH?si=bosKDMt4ST-gg1Avq5VBMw"
+  },
+  {
+    "nome": "This or the Apocalypse",
+    "ano_formacao": "2005",
+    "estilo": "Metalcore",
+    "local": "EUA",
+    "imagem": "imagens/tota.jpg",
+    "youtube": "https://www.youtube.com/@GoodFightMusic/search?query=This%20or%20the%20Apocalypse",
+    "spotify": "https://open.spotify.com/intl-pt/artist/3V5HSi5V8ivCbmIkQUW5nO?si=WfC7aB5aQ7y-kkN3LOln2w"
+  },
+  {
+    "nome": "Circa Survive",
+    "ano_formacao": "2004",
+    "estilo": "Rock Alternativo",
+    "local": "EUA",
+    "imagem": "imagens/circa.webp",
+    "youtube": "https://www.youtube.com/@equalvision/search?query=Circa%20Survive",
+    "spotify": "https://open.spotify.com/intl-pt/artist/11FY888Qctoy6YueCpFkXT?si=h95tZWPTTUueKI0R9RylJw"
   }
 ]
