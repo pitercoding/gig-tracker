@@ -33,23 +33,72 @@ function renderizarBandas(lista) {
   const container = document.getElementById('bandas-container');
   container.innerHTML = "";
 
+  if (lista.length === 0) {
+    const msg = document.createElement('p');
+    msg.textContent = "Nenhuma banda encontrada para sua busca. Faça uma nova pesquisa ou volte aos cards.";
+    msg.style.textAlign = "center";
+    msg.style.fontSize = "1.2rem";
+    msg.style.color = "gray";
+    container.appendChild(msg);
+    return;
+  }
+
   lista.forEach(banda => {
     const card = document.createElement('div');
     card.className = 'card';
-    card.innerHTML = `
-      <img src="${banda.imagem}" alt="${banda.nome}" class="card-img" />
-      <h2>${banda.nome}</h2>
+    card.style.cursor = 'pointer';  // deixa o card com cursor de clique
+
+    const img = document.createElement('img');
+    img.src = banda.imagem;
+    img.alt = banda.nome;
+    img.className = 'card-img';
+
+    const title = document.createElement('h2');
+    title.textContent = banda.nome;
+    title.classList.add('card-title');
+
+    const detalhes = document.createElement('div');
+    detalhes.className = 'card-details hidden';
+    detalhes.innerHTML = `
       <p><strong>Ano de Formação:</strong> ${banda.ano_formacao}</p>
       <p><strong>Estilo:</strong> ${banda.estilo}</p>
       <p><strong>Local:</strong> ${banda.local}</p>
       <div class="links">
-          <a href="${banda.youtube}" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube youtube-icon"></i></a>
-          <a href="${banda.spotify}" target="_blank" aria-label="Spotify"><i class="fa-brands fa-spotify spotify-icon"></i></a>
+        <a href="${banda.youtube}" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube youtube-icon"></i></a>
+        <a href="${banda.spotify}" target="_blank" aria-label="Spotify"><i class="fa-brands fa-spotify spotify-icon"></i></a>
       </div>
     `;
-    container.appendChild(card);
+
+    // Escuta o clique no card todo, não só no título
+    card.addEventListener('click', (event) => {
+  event.stopPropagation(); // Evita conflito com clique fora
+
+  const estaAberto = !detalhes.classList.contains('hidden');
+
+  // Fecha todos os outros
+  document.querySelectorAll('.card-details:not(.hidden)').forEach(el => {
+    el.classList.add('hidden');
+  });
+
+  // Abre somente se estava fechado (toggle)
+  if (!estaAberto) {
+    detalhes.classList.remove('hidden');
+  }
+});
+
+  card.appendChild(img);
+  card.appendChild(title);
+  card.appendChild(detalhes);
+
+  // Se houver apenas uma banda na lista, abre os detalhes automaticamente
+  if (lista.length === 1) {
+  detalhes.classList.remove('hidden');
+  }
+
+  container.appendChild(card);
   });
 }
+
 
 document.addEventListener('DOMContentLoaded', () => {
   const toggleBtn = document.getElementById('toggle-tema');
@@ -69,4 +118,21 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('busca').addEventListener('input', atualizarInterface);
 
   carregarBandas();
+
+  document.addEventListener('click', (event) => {
+  const clicouDentroDeCard = event.target.closest('.card');
+  if (!clicouDentroDeCard) {
+    // Fecha todos os detalhes abertos
+    document.querySelectorAll('.card-details:not(.hidden)').forEach(el => {
+      el.classList.add('hidden');
+    });
+
+  document.getElementById('limpar-busca').addEventListener('click', () => {
+  document.getElementById('busca').value = '';
+  atualizarInterface();
+});
+
+  }
+});
+
 });

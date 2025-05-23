@@ -82,6 +82,12 @@ body.light .nav-principal a:hover {
     gap: 1.5rem;
 }
 
+#bandas-container > p {
+  font-style: italic;
+  margin-top: 2rem;
+}
+
+
 .card {
     background-color: inherit;
     padding: 1.2rem;
@@ -171,7 +177,40 @@ body.light .card {
   border-radius: 5px;
 }
 
+#limpar-busca {
+  padding: 0.4rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: rgba(255, 255, 255, 0.25); /* fundo mais visível */
+  color: #eee; /* texto claro para contraste */
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+}
+
+body.light #limpar-busca {
+  background-color: rgba(0, 0, 0, 0.1); /* fundo levemente escuro no claro */
+  color: #222; /* texto escuro para contraste */
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+}
+
+#limpar-busca:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #fff;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.7);
+}
+
+body.light #limpar-busca:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #000;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+
+
 #lastfm {
+  padding-top: 50px;
   text-align: center;
   margin: 2rem 0;
 }
@@ -263,4 +302,47 @@ body.light .nav-retorno a:hover {
     max-width: 500px;
     width: 100%;
   }
+}
+
+.card {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card-header h2 {
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.card-details {
+  margin-top: 0.5rem;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.hidden {
+  display: none;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  cursor: pointer;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.card-details.hidden {
+  display: none;
+}
+
+/* Destaque do card aberto */
+.card:not(:has(.card-details.hidden)) {
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.6); /* azul vivo */
+  background-color: rgba(0, 123, 255, 0.1); /* azul clarinho */
+  border-color: rgba(0, 123, 255, 0.7);
+  transform: scale(1.03);
+  transition: all 0.3s ease;
 }
