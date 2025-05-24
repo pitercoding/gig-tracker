@@ -1,3 +1,9 @@
+/**
+ * Projeto: Catálogo de Bandas Assistidas ao vivo
+ * Objetivo: Permitir que usuários descubram e filtrem bandas por nome, estilo e local.
+ * Recursos: Busca dinâmica, filtros interativos, ordenação e links para Spotify/YouTube.
+ */
+
 let bandasData = [];
 
 function carregarBandas() {
@@ -11,20 +17,20 @@ function carregarBandas() {
 }
 
 function preencherFiltrosUnicos() {
-  const estilos = [...new Set(bandasData.map(b => b.estilo))].sort();
-  const locais = [...new Set(bandasData.map(b => b.local))].sort();
+  const estilos = [...new Set(bandasData.map((b) => b.estilo))].sort();
+  const locais = [...new Set(bandasData.map((b) => b.local))].sort();
 
   const filtroEstilo = document.getElementById("filtro-estilo");
   const filtroLocal = document.getElementById("filtro-local");
 
-  estilos.forEach(estilo => {
+  estilos.forEach((estilo) => {
     const opt = document.createElement("option");
     opt.value = estilo;
     opt.textContent = estilo;
     filtroEstilo.appendChild(opt);
   });
 
-  locais.forEach(local => {
+  locais.forEach((local) => {
     const opt = document.createElement("option");
     opt.value = local;
     opt.textContent = local;
@@ -41,8 +47,10 @@ function atualizarInterface() {
 
   let filtradas = bandasData.filter((banda) => {
     const correspondeBusca = banda.nome.toLowerCase().includes(busca);
-    const correspondeEstilo = !estiloSelecionado || banda.estilo === estiloSelecionado;
-    const correspondeLocal = !localSelecionado || banda.local === localSelecionado;
+    const correspondeEstilo =
+      !estiloSelecionado || banda.estilo === estiloSelecionado;
+    const correspondeLocal =
+      !localSelecionado || banda.local === localSelecionado;
     return correspondeBusca && correspondeEstilo && correspondeLocal;
   });
 
@@ -137,11 +145,21 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Eventos de filtros
-  document.getElementById("ordenar").addEventListener("change", atualizarInterface);
-  document.getElementById("direcao").addEventListener("change", atualizarInterface);
-  document.getElementById("busca").addEventListener("input", atualizarInterface);
-  document.getElementById("filtro-estilo").addEventListener("change", atualizarInterface);
-  document.getElementById("filtro-local").addEventListener("change", atualizarInterface);
+  document
+    .getElementById("ordenar")
+    .addEventListener("change", atualizarInterface);
+  document
+    .getElementById("direcao")
+    .addEventListener("change", atualizarInterface);
+  document
+    .getElementById("busca")
+    .addEventListener("input", atualizarInterface);
+  document
+    .getElementById("filtro-estilo")
+    .addEventListener("change", atualizarInterface);
+  document
+    .getElementById("filtro-local")
+    .addEventListener("change", atualizarInterface);
 
   carregarBandas();
 

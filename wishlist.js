@@ -1,3 +1,9 @@
+/**
+ * Projeto: Catálogo de Bandas que desejo assistir ao vivo
+ * Objetivo: Permitir que usuários descubram e filtrem bandas por nome, estilo e local.
+ * Recursos: Busca dinâmica, filtros interativos, ordenação e links para Spotify/YouTube.
+ */
+
 let bandasData = [];
 
 function carregarBandas() {
