@@ -1,15 +1,15 @@
 @charset "UTF-8";
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transition: background-color 0.3s, color 0.3s;
-    padding: 1rem;
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+  padding: 1rem;
 }
 
 body.dark {
@@ -22,9 +22,10 @@ body.light {
   color: #111;
 }
 
-header, footer {
-    text-align: center;
-    margin: 2rem 0;
+header,
+footer {
+  text-align: center;
+  margin: 2rem 0;
 }
 
 #toggle-tema {
@@ -43,7 +44,8 @@ body.light #toggle-tema {
   color: #111;
 }
 
-.nav-principal {
+.nav-principal,
+.nav-retorno {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
@@ -52,7 +54,8 @@ body.light #toggle-tema {
   font-size: 1rem;
 }
 
-.nav-principal a {
+.nav-principal > a,
+.nav-retorno a {
   text-decoration: none;
   font-weight: 600;
   padding: 0.6rem 1rem;
@@ -62,24 +65,26 @@ body.light #toggle-tema {
   color: #fff;
 }
 
-body.light .nav-principal a {
+body.light .nav-principal a,
+body.light .nav-retorno a {
   background-color: #f0f0f0;
   color: #111;
 }
 
-.nav-principal a:hover {
+.nav-principal a:hover,
+.nav-retorno a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-body.light .nav-principal a:hover {
+body.light .nav-principal a:hover,
+body.light .nav-retorno a:hover {
   background-color: #ddd;
 }
 
-
 #bandas-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
 }
 
 #bandas-container > p {
@@ -87,14 +92,13 @@ body.light .nav-principal a:hover {
   margin-top: 2rem;
 }
 
-
 .card {
-    background-color: inherit;
-    padding: 1.2rem;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    transition: transform 0.2s;
+  background-color: inherit;
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.2s;
 }
 
 body.light .card {
@@ -104,7 +108,7 @@ body.light .card {
 }
 
 .card:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .card h2 {
@@ -115,7 +119,7 @@ body.light .card {
   margin: 0.3rem 0;
 }
 
-.card-img{
+.card-img {
   width: 100%;
   height: 200px;
   object-fit: cover;
@@ -131,7 +135,6 @@ body.light .card {
   margin-top: 0.8rem; /* espaço entre o conteúdo acima */
 }
 
-
 .links a {
   font-size: 1.5rem;
   color: inherit;
@@ -143,11 +146,11 @@ body.light .card {
 }
 
 .youtube-icon {
-  color: #FF0000; /* Vermelho YouTube */
+  color: #ff0000; /* Vermelho YouTube */
 }
 
 .spotify-icon {
-  color: #1DB954; /* Verde Spotify */
+  color: #1db954; /* Verde Spotify */
 }
 
 /* Efeito de hover opcional */
@@ -158,7 +161,6 @@ body.light .card {
 .links a:hover .spotify-icon {
   color: #169b47;
 }
-
 
 #filtros {
   margin-top: 1rem;
@@ -171,7 +173,9 @@ body.light .card {
 
 #ordenar,
 #direcao,
-#busca {
+#busca,
+#filtro-estilo,
+#filtro-local {
   padding: 0.4rem;
   font-size: 1rem;
   border-radius: 5px;
@@ -207,8 +211,6 @@ body.light #limpar-busca:hover {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
 }
 
-
-
 #lastfm {
   padding-top: 50px;
   text-align: center;
@@ -216,7 +218,8 @@ body.light #limpar-busca:hover {
 }
 
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
   }
   50% {
@@ -240,11 +243,11 @@ footer a.github:hover {
 }
 
 footer a.linkedin:hover {
-  color: #0A66C2; /* Azul LinkedIn */
+  color: #0a66c2; /* Azul LinkedIn */
 }
 
 footer a.lastfm:hover {
-  color: #D51007; /* Vermelho Last.fm */
+  color: #d51007; /* Vermelho Last.fm */
 }
 
 .nav-retorno {
@@ -274,8 +277,6 @@ body.light .nav-retorno a {
 body.light .nav-retorno a:hover {
   background-color: #ccc;
 }
-
-
 
 /* Em telas maiores, aumente a altura */
 @media (min-width: 768px) {
