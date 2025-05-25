@@ -2,11 +2,7 @@
 
 Bem-vindo ao **GigTracker**, um catálogo interativo das bandas que eu já assisti e que ainda sonho em ver ao vivo! Este projeto pessoal permite explorar, pesquisar, filtrar cards de bandas, com acesso direto ao Spotify e YouTube de cada uma delas.
 
-![Screenshot do projeto](imagens/gigtracker.jpg) 
-
 Este projeto foi desenvolvido inteiramente por mim, **Piter Gomes**, como parte do meu portfólio pessoal para demonstrar habilidades em **JavaScript**, **HTML**, **CSS**, manipulação do **DOM**, uso de **JSON**, além de princípios de **UX/UI** responsivo e boas práticas de código.
-
----
 
 ## 📌 Acesse o projeto online
 
@@ -21,8 +17,6 @@ Este projeto foi desenvolvido inteiramente por mim, **Piter Gomes**, como parte 
 - 🔗 **Links Diretos**: Acesse YouTube e Spotify de cada banda.
 - 📡 **Last.fm**: Integração para mostrar o que estou ouvindo agora.
 
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5** + **CSS3**  
@@ -33,7 +27,7 @@ Este projeto foi desenvolvido inteiramente por mim, **Piter Gomes**, como parte 
 - **LocalStorage** para tema escuro/claro
 
 ## 📁 Organização do Projeto
-``
+```
 gigtracker/
 │
 ├── index.html            # Página principal
@@ -44,7 +38,7 @@ gigtracker/
 ├── wishlist.js           # Lógica e interatividade do wishlist.html
 ├── bandas-wishlist.json  # Dados das bandas do wishlist.html
 ├── imagens/              # Imagens e favicon
-`` 
+```
 
 ## 🔧 Como Rodar Localmente
 
@@ -53,7 +47,7 @@ gigtracker/
    git clone https://github.com/pitercoding/gigtracker.git
    cd gigtracker
     ```
-2. Abra o arquivo `wishlist.html` em seu navegador favorito (basta dar duplo clique ou usar um servidor local como Live Server no VSCode).
+2. Abra o arquivo `index.html` em seu navegador favorito (basta dar duplo clique ou usar um servidor local como Live Server no VSCode).
 
 ## 🧠 Possíveis melhorias futuras
 
@@ -72,8 +66,8 @@ Como projeto em constante evolução, há diversas ideias de melhorias para vers
  * Internacionalização (i18n) com tradução para outros idiomas
 
 ## 👤 Autor
-Desenvolvido com 🎸, ☕ e dedicação por Piter Gomes
-📍 Estudante de Ciência da Computação – 4º período
+Desenvolvido com 🎸, ☕ e dedicação por **Piter Gomes**<br>
+📍 Estudante de Ciência da Computação – 4º período<br>
 📫 [LinkedIn](https://www.linkedin.com/in/piter-gomes-4a39281a1/) | [GitHub](https://github.com/pitercoding) | [Last.fm](https://www.last.fm/pt/user/Thisisdefeat)
 
 ## ⚖️ Licença
