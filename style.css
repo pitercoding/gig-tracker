@@ -162,7 +162,7 @@ body.light .card {
   color: #1db954; /* Verde Spotify */
 }
 
-/* Efeito de hover opcional */
+/* Efeito de hover */
 .links a:hover .youtube-icon {
   color: #cc0000;
 }

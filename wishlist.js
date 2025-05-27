@@ -47,8 +47,10 @@ function atualizarInterface() {
 
   let filtradas = bandasData.filter((banda) => {
     const correspondeBusca = banda.nome.toLowerCase().includes(busca);
-    const correspondeEstilo = !estiloSelecionado || banda.estilo === estiloSelecionado;
-    const correspondeLocal = !localSelecionado || banda.local === localSelecionado;
+    const correspondeEstilo =
+      !estiloSelecionado || banda.estilo === estiloSelecionado;
+    const correspondeLocal =
+      !localSelecionado || banda.local === localSelecionado;
     return correspondeBusca && correspondeEstilo && correspondeLocal;
   });
 
@@ -143,11 +145,21 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("tema", novoTema);
   });
 
-  document.getElementById("ordenar").addEventListener("change", atualizarInterface);
-  document.getElementById("direcao").addEventListener("change", atualizarInterface);
-  document.getElementById("busca").addEventListener("input", atualizarInterface);
-  document.getElementById("filtro-estilo").addEventListener("change", atualizarInterface);
-  document.getElementById("filtro-local").addEventListener("change", atualizarInterface);
+  document
+    .getElementById("ordenar")
+    .addEventListener("change", atualizarInterface);
+  document
+    .getElementById("direcao")
+    .addEventListener("change", atualizarInterface);
+  document
+    .getElementById("busca")
+    .addEventListener("input", atualizarInterface);
+  document
+    .getElementById("filtro-estilo")
+    .addEventListener("change", atualizarInterface);
+  document
+    .getElementById("filtro-local")
+    .addEventListener("change", atualizarInterface);
 
   document.getElementById("limpar-busca").addEventListener("click", () => {
     document.getElementById("busca").value = "";
@@ -165,4 +177,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
   carregarBandas();
 });
-
