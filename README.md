@@ -1,12 +1,16 @@
-# 🎸 GigTracker 
+<h1 align="center">🎸 GigTracker  (PT-BR)</h1>
+
+<p align="center">
+  🌎 <strong>Languages:</strong><br>
+  <a href="README.md">🇧🇷 Português</a> |
+  <a href="README.en.md">🇺🇸 English</a>
+</p>
 
 Bem-vindo ao **GigTracker**, um catálogo interativo das bandas que eu já assisti e que ainda sonho em ver ao vivo! Este projeto pessoal permite explorar, pesquisar, filtrar cards de bandas, com acesso direto ao Spotify e YouTube de cada uma delas.
 
 Este projeto foi desenvolvido inteiramente por mim, **Piter Gomes**, como parte do meu portfólio pessoal para demonstrar habilidades em **JavaScript**, **HTML**, **CSS**, manipulação do **DOM**, uso de **JSON**, além de princípios de **UX/UI** responsivo e boas práticas de código.
 
-## 📌 Acesse o projeto online
-
-🔗 [Clique aqui para ver o projeto no GitHub Pages](https://pitercoding.github.io/gig-tracker/).
+🔗 [Acesse Aqui](https://pitercoding.github.io/gig-tracker/)
 
 ## 🚀 Funcionalidades
 
@@ -65,11 +69,12 @@ Como projeto em constante evolução, há diversas ideias de melhorias para vers
  * Modo de exibição em **lista ou grade**
  * Internacionalização (i18n) com tradução para outros idiomas
 
-## 👤 Autor
-Desenvolvido com 🎸, ☕ e dedicação por **Piter Gomes**<br>
-📍 Estudante de Ciência da Computação – 4º período<br>
-📫 [LinkedIn](https://www.linkedin.com/in/piter-gomes-4a39281a1/) | [GitHub](https://github.com/pitercoding) | [Last.fm](https://www.last.fm/pt/user/Thisisdefeat)
+## 📜 **Licença**
 
-## ⚖️ Licença
-Este projeto está licenciado sob a licença MIT.
-Sinta-se à vontade para estudar, adaptar ou usar como base para projetos educacionais.
+Este projeto está sob a licença **MIT**.
+
+## 🧑‍💻 Autor
+
+**Piter Gomes** — Aluno de Ciências da Computação (4º Semestre) & Desenvolvedor Full-Stack
+
+📧 [Email](mailto:piterg.bio@gmail.com) | 💼 [LinkedIn](https://www.linkedin.com/in/piter-gomes-4a39281a1/) | 💻 [GitHub](https://github.com/pitercoding) | 🌐 [Portfolio](https://portfolio-pitergomes.vercel.app/)
